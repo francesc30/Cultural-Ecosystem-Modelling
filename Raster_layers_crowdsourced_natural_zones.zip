@@ -1,6 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2c53cb9d8cb7fa4a131bc7f0b7caf4d7e28d5b39748b4ca8ee08d5aafc9a7ac5
-size 12750040
+
 Residual Raster Layers from CES Population Density Model
 This dataset contains five raster layers representing the residuals of an XGBoost model trained to predict Cultural Ecosystem Services (CES) presence using population density as the sole predictor. The residuals were computed as the difference between observed CES photo presence and model-predicted probabilities, and interpolated using Inverse Distance Weighting (IDW) at ~1 km resolution.
 
@@ -9,4 +7,4 @@ a) Aesthetic Values, b) Recreational Values, c) Cultural Heritage, d) Fauna Fasc
 
 Positive residuals (red areas) indicate locations where CES presence is underexplained by population density, revealing spatial hotspots likely shaped by other biophysical or cultural drivers. Spatial autocorrelation was assessed using Moran’s I, with the strongest autocorrelation observed in the combined CES category (I = 0.47), confirming the model's spatial structure.
 
-Use these layers to explore CES patterns beyond demographic influence.
+Use these layers to explore CES patterns beyond demographic influence in Iberian Peninsula Rivers.
