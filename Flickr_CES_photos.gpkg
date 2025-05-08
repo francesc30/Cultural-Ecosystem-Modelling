@@ -1,1 +1,20 @@
+River CES Photo Layer (Filtered by PUD)
+This layer contains 40,743 georeferenced photographs classified as river-related Cultural Ecosystem Services (CES). The data was extracted from an initial pool of 754,676 Flickr images using a deep learning image classification model based on ResNet152, which achieved a global accuracy of 0.91.
+
+Each photo was assigned to one of five CES categories:
+Aesthetic Values, Recreational Values, Cultural Heritage, Fauna Fascination, and Flora Fascination.
+
+Model performance varied by category, with high F1-scores (0.89–0.99) and particularly strong recall for Aesthetic and Non-river CES categories, indicating reliable classification of visually distinctive landscape elements.
+
+After classification, a Photo-User-Day (PUD) filter was applied to retain only high-confidence observations. The PUD filter reduces temporal and user bias by aggregating photos per user per day, ensuring that each record reflects a unique visit rather than repetitive uploads. This filtering step resulted in a final set of 40,743 photos (5% of the original dataset) that best represent spatial patterns of river CES presence.
+
+Each point in the layer includes geographic coordinates and the predicted CES category, making it suitable for spatial analysis, validation, and mapping of river-related cultural values.
+
+
+
+
+
+
+
+
 
