@@ -60,12 +60,12 @@ Four Jupyter notebooks performing the full modelling pipeline (described below).
 
 ### `03_Metadata_retrival.ipynb`
 
-- Extracts and structures metadata (timestamp, user ID, geolocation) from classified images.
+- Extracts and structures metadata (timestamp, user ID, geolocation, etc.) from classified images.
 
 ### `04_CES_Modelling.ipynb`
 
 - Builds predictive models (XGBoost) linking CES presence to predictors like NDVI, population density, naturalness, and river order.
-- Includes residual analysis, spatial autocorrelation (Moran's I), and interpolation.
+- Includes residual analysis, spatial autocorrelation (Moran's I), and interpolation, and mapping.
 
 ---
 
@@ -80,12 +80,14 @@ Four Jupyter notebooks performing the full modelling pipeline (described below).
 ## Supplementary Data
 
 This repository includes a GeoPackage of CES images from the Iberian Peninsula, used in the original publication.
+This repository contains six raster layers highlighting areas with high visitation rates but low population density, derived from crowdsourced data.
+
 
 ---
 
 ## Citation
 
-If you use this tool, please cite it as appropriate (publication pending). Your acknowledgment supports ongoing research.
+If you use this tool, please cite it as appropriate (publication pending). Your acknowledgement supports ongoing research.
 
 ---
 
