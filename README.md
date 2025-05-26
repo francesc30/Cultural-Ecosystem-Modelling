@@ -85,7 +85,7 @@ This repository contains six raster layers highlighting areas with high visitati
 
 This repository includes the row code of the Resnet-152 model (for replication) (freshCES-net.ipynb)
 
-This repository includes the photo ID used for model training and each photo's category (Training_CES_photos.xlsx)
+This repository includes the photo ID used for model training and each photo's category (Training_CES_photos.xlsx) and model validation with unseen data (Ter_Validation_CES_photos.xlsx)
 
 
 ---
