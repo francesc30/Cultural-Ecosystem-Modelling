@@ -83,7 +83,7 @@ This repository includes a GeoPackage of CES images from the Iberian Peninsula, 
 
 This repository contains six raster layers highlighting areas with high visitation rates but low population density, derived from crowdsourced data.
 
-This repository includes the row code of the Resnet-152 model (for replication) (freshCES-net.ipynb
+This repository includes the row code of the Resnet-152 model (for replication) (freshCES-net.ipynb)
 
 This repository includes the photo ID used for model training and each photo's category (Training_CES_photos.xlsx)
 
